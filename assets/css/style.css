@@ -70,6 +70,9 @@ header nav ul li a:hover{
     flex-wrap: wrap;
     justify-content: flex-start;
 }
+.link{
+    text-decoration: none;
+}
 footer{
     padding: 40px 35px;
     display: flex;
@@ -89,7 +92,7 @@ footer div{
     border-right: 1px solid;
 }
 section{
-    padding: 60px 0;
+    padding: 1.5vw 0;
 }
 .about{
     display: flex;
@@ -202,7 +205,7 @@ section{
     display: block;
     padding: 7px 15px;
     font-size: 16px;
-    color: var(--primary-color);
+    color: var(--secondary-color);
     width: 100%;
     margin-bottom: 15px;
     margin-top: 5px;
@@ -227,3 +230,56 @@ section{
 .contact-form button:hover{
     background-color: var(--secondary-color);
 }
+
+@media screen and (max-width: 768px){
+    header{
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    header h1{
+        width: 100%;
+        text-align: center;
+    }
+    header nav li{
+       margin-top:20px;
+        width: 100%;
+        justify-content: center;
+    }
+    header nav ul li a {
+        font-size: 20px;
+    }
+    footer h2, footer div{
+        text-align: center;
+        width: 100%;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .side, .about p{
+        padding: 10px,0,10px,0;
+        width: 100%;
+    }
+    .my-work-section{
+        display: flex;
+        flex-direction: column;
+    }
+    .works{
+        flex:0 70%;
+    }
+    .work{
+        min-width: 200px;
+    }
+    .work-img{
+        min-width: none;
+    }
+    .contacts{
+        flex-direction: column;
+    }
+    .contact{
+        flex-direction: column;
+    }
+
+}
+    
