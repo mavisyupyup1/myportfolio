@@ -17,13 +17,11 @@ header{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: sticky;
     top:0;
     background-color: var(--secondary-color);
     background-size: cover;
     background-attachment: fixed;
     background-position:80%;
-    z-index: 9999;
     align-items: center;
 }
 header h1{
@@ -92,12 +90,13 @@ footer div{
     border-right: 1px solid;
 }
 section{
-    padding: 1.5vw 0;
+    padding: 2.5vw 0;
 }
 .about{
     display: flex;
 }
 .side{
+
    flex:1 12%;
    border-right: solid 1px var(--tertiary-color)
 }
