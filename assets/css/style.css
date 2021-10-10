@@ -144,10 +144,12 @@ section{
     border-radius: 15px;
     flex:1 2 50%;
     justify-content: space-between;
+    position: relative;
 }  
 .first-work{
     border: 1px solid var(--tertiary-color);
     border-radius: 15px;
+    position: relative;
 }
 .first-work:hover{
     border: 4px solid lightblue;
@@ -159,25 +161,26 @@ section{
     box-shadow: 5px 5px rgba(221, 218, 218, 0.8);
 }
 .work-img{
-    padding: 32px;
+    padding: 6px;
     align-self: center;
+    border-radius: 15px;
     max-width: 100%;
 }
 .first-work img{
     padding: 32px,auto,0,auto;
     align-self: center;
 }
-.work-info{
-    padding: 32px;
-}
+
 .work-title{
     font-size: 20px;
     margin: 0;
-}
-.work-text{
-    font-weight: lighter;
-    font-size: 16px;
-    margin-bottom: 15px;
+    padding: 4px;
+    position: absolute;
+    bottom: 8px;
+    left: 6px;
+    background-color:lightblue;
+    opacity: .8;
+    border-radius: 0 0 0 15px ;
 }
 
 .contacts{
