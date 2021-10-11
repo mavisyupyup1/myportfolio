@@ -96,7 +96,7 @@ section{
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
-    background-image: url(/assets/images/banner-2.jpg);
+    background-image: url(../images/banner-2.jpg);
 justify-content: flex-end;
 align-items:baseline;
 background-size: cover;
