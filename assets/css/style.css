@@ -92,6 +92,21 @@ footer div{
 section{
     padding: 2.5vw 0;
 }
+.banner{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url(/assets/images/banner-2.jpg);
+justify-content: flex-end;
+align-items:baseline;
+background-size: cover;
+}
+.banner h2{
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    padding: 0,5px;
+}
 .about{
     display: flex;
 }
@@ -164,6 +179,11 @@ section{
     align-self: center;
     border-radius: 15px;
     max-width: 100%;
+    opacity: .75;
+}
+
+.work-img:hover{
+    opacity: 1;
 }
 .first-work img{
     padding: 32px,auto,0,auto;
