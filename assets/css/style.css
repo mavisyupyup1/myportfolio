@@ -45,15 +45,15 @@ header a {
 }
 header nav ul {
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     list-style: none;
 }
 header nav ul li a{
-    padding: 10px 15px;
+    padding: 5px 15px;
     font-weight: lighter;
-    font-size: 1.5em;
     text-shadow: 0 0 10px rgba(0,0,0,rgba(0,0,0,.5));
+    white-space: nowrap;
 }
 
 header nav ul li a:hover{
@@ -108,7 +108,10 @@ background-size: cover;
     color: var(--secondary-color);
     background-color: var(--primary-color);
     border-radius: 5px;
-    padding: 0,5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    margin: 5px;
 }
 .about{
     display: flex;
@@ -194,7 +197,7 @@ background-size: cover;
 }
 
 .work-title{
-    font-size: 20px;
+    font-size: 1.5vw;
     margin: 0;
     padding: 4px;
     position: absolute;
